@@ -1,0 +1,406 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.skeleton {
+  height: 20px;
+  background: #ccc;
+  margin-bottom: 10px;
+}
+
+.chat {
+  margin-top: 20px;
+}
+
+.user-message {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.response {
+  background: #e2f7e2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.user-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.response-label {
+  font-weight: bold;
+  margin-right: 10px;
+} */
+
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.send-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.send-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.loader {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.chat {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.user-message, .response {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #f0f0f0;
+  align-self: flex-start;
+}
+
+.response {
+  background-color: #d0e8ff;
+  align-self: flex-end;
+}
+
+.user-label {
+  font-weight: bold;
+  margin-right: 5px;
+} */
+
+
+/* .container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.skeleton {
+  height: 20px;
+  background: #ccc;
+  margin-bottom: 10px;
+}
+
+.chat {
+  margin-top: 20px;
+}
+
+.user-message {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.user-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.response {
+  background: #e2f7e2;
+  padding: 10px;
+  border-radius: 10px;
+} */
+
+/* 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.chat-bubble {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.chat-bubble.question {
+  align-self: flex-end;
+  background-color: #d1e7dd;
+}
+
+.chat-bubble.response {
+  align-self: flex-start;
+  background-color: #f8d7da;
+}
+
+.loading .skeleton {
+  height: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+} */
+
+
+
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.send-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.send-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.loader {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.chat {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.user-message, .response {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #f0f0f0;
+  align-self: flex-start;
+}
+
+.response {
+  background-color: #d0e8ff;
+  align-self: flex-end;
+}
+
+.user-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  font-size: 0.8rem;
+}
