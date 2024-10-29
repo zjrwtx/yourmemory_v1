@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 项目简介
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个基于 React 的 Web 应用程序，旨在帮助用户记录和记住他们的记忆。用户可以通过与 AI 助手进行对话来分享他们的记忆，并获取有关如何更好地管理和组织记忆的建议。
 
-## Available Scripts
+## 功能
 
-In the project directory, you can run:
+- 用户可以与 AI 助手进行对话，分享他们的记忆。
+- AI 助手会根据用户的输入提供个性化的建议和反馈。
+- 用户可以添加新的任务和标签，以便更好地管理和组织他们的记忆。
+- 应用程序支持深色模式和浅色模式，以满足用户的不同需求。
 
-### `npm start`
+## 如何使用
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 克隆或下载项目到本地。
+2. 在项目根目录下运行 `npm install` 安装所有依赖。
+3. 运行 `npm start` 启动开发服务器。
+4. 在浏览器中访问 `http://localhost:3000` 查看应用程序。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 技术栈
 
-### `npm test`
+- React
+- Tailwind CSS
+- Lucide Icons
+- Framer Motion
+- Ant Design
+- OpenAI API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 贡献
 
-### `npm run build`
+如果您想为该项目做出贡献，请遵循以下步骤：
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork 项目。
+2. 创建一个新的分支。
+3. 提交您的更改。
+4. 发起一个 Pull Request。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 许可证
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+该项目遵循 MIT 许可证。有关详细信息，请查看 LICENSE 文件。
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+请注意，为了保护隐私和安全，已从上述 README 文件中删除了个人可识别信息（PII）和某些网站的超链接。
