@@ -1,4 +1,6 @@
 # 项目简介
+![image](https://github.com/user-attachments/assets/89a611cb-e73d-40af-a817-ef7391172f74)
+
 
 这是一个基于 React 的 Web 应用程序，旨在帮助用户记录和记住他们的记忆。用户可以通过与 AI 助手进行对话来分享他们的记忆，并获取有关如何更好地管理和组织记忆的建议。
 
